@@ -50,6 +50,10 @@ nav ul li {
     justify-self: end;
 }
 
+nav ul li:hover{
+    transform: translate(5px, 5px);
+}
+
 nav ul li a {
     font-size: 1.5rem;
     color: white;
@@ -76,6 +80,10 @@ main a {
     margin: 2rem;
     display: inline-block;
     border-radius: 1rem;
+}
+
+main a:hover{
+    transform: scale(1.1);
 }
 
 .tituloPrincipal {
