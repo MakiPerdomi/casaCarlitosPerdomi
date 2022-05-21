@@ -326,16 +326,6 @@ form input {
 
     /* media queries (mq) - bebesyNinos.html */
 
-    .bebesyninosBody {
-        display: grid;
-        height: 100vh;
-        grid-template-areas: "header header "
-                              "main main"
-                              "footer footer";
-        grid-template-rows: 145px 2300px 80px;
-        gap: 10px;
-    }
-
     .gamise img {
         height: 300px;
         width: 300px;
@@ -408,7 +398,6 @@ form input {
     .frenteLocal{
         display: none;
     }
-
 }
 
 @media screen and (max-width:320px) {
