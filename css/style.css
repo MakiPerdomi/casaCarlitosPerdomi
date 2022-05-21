@@ -79,6 +79,11 @@ main a:hover{
     transform: scale(1.1);
 }
 
+main img{
+    height: 6rem;
+    width: 6rem;
+}
+
 .tituloPrincipal {
     font-size: 5rem;
     font-weight: bold;
@@ -416,6 +421,11 @@ form input {
         font-size: 1rem;
         padding: 1rem;
         border-radius: 1rem;
+    }
+
+    main img{
+        height: 3rem;
+        width: 3rem;
     }
 
     /* media queries (mq) - sobreNosotros.html */
