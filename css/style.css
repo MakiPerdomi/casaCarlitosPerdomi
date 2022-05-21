@@ -305,6 +305,11 @@ form input {
         border-radius: 1rem;
     }
 
+    main img{
+        height: 3rem;
+        width: 3rem;
+    }
+
     /* media queries (mq) - sobreNosotros.html */
 
     .sobreNosotrosMain img {
