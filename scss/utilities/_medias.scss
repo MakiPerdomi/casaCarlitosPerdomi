@@ -1,0 +1,68 @@
+/* media queries (mq) */
+
+@media screen and (max-width:768px) {
+    header {
+        nav ul li a {
+            font-size: 1rem;
+            color: white;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        nav {
+            font-size: 1rem;
+            width: 95%;
+            top: 5%;
+            position: absolute;
+            text-align: end;
+            list-style-type: none;
+            color: white;
+        }
+    }
+
+    main {
+        .tituloPrincipal {
+            font-size: 3.5rem;
+        }
+
+        .lema {
+            font-size: 1.5rem;
+        }
+
+        a {
+            margin: 1rem;
+            font-size: 1.4rem;
+            padding: 1rem;
+            border-radius: 1rem;
+        }
+
+        img {
+            height: 2rem;
+            width: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width:320px) {
+    .home {
+        .tituloPrincipal {
+            font-size: 2.5rem;
+        }
+
+        .lema {
+            font-size: 1.5rem;
+        }
+
+        a {
+            margin: 1rem;
+            font-size: 1rem;
+            padding: 1rem;
+            border-radius: 1rem;
+        }
+
+        a img {
+            height: 1rem;
+            width: 1rem;
+        }
+    }
+}

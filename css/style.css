@@ -1,70 +1,94 @@
-/* reset */
+/* media queries (mq) */
+@media screen and (max-width: 768px) {
+  header nav ul li a {
+    font-size: 1rem;
+    color: white;
+    display: inline-block;
+    margin: 5px; }
+  header nav {
+    font-size: 1rem;
+    width: 95%;
+    top: 5%;
+    position: absolute;
+    text-align: end;
+    list-style-type: none;
+    color: white; }
+  main .tituloPrincipal {
+    font-size: 3.5rem; }
+  main .lema {
+    font-size: 1.5rem; }
+  main a {
+    margin: 1rem;
+    font-size: 1.4rem;
+    padding: 1rem;
+    border-radius: 1rem; }
+  main img {
+    height: 2rem;
+    width: 2rem; } }
 
+@media screen and (max-width: 320px) {
+  .home .tituloPrincipal {
+    font-size: 2.5rem; }
+  .home .lema {
+    font-size: 1.5rem; }
+  .home a {
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 1rem; }
+  .home a img {
+    height: 1rem;
+    width: 1rem; } }
+
+/*reset*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-family: 'Work Sans', sans-serif;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Work Sans", sans-serif; }
 
-/* estilo del home */
-
+/*Estilo del home*/
 header {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: lightblue;
-    margin-bottom: 0.5rem;
-}
-
-header img {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+  margin-bottom: 0.5rem; }
+  header header img {
     margin: 10px;
-    text-align: start;
-}
-
-header nav {
+    text-align: start; }
+  header header nav {
     width: 95%;
     top: 5%;
     position: absolute;
     text-align: end;
     list-style-type: none;
     color: white;
-    font-size: 1.5rem;
-}
-
-nav ul li {
+    font-size: 1.5rem; }
+  header nav ul li {
     display: inline-block;
-    justify-self: end;
-}
-
-.nav-link{
-    color: white;
-}
-
-nav ul li:hover{
-    transform: translate(5px, 5px);
-}
-
-nav ul li a {
+    justify-self: end; }
+  header .nav-link {
+    color: white; }
+  header nav ul li:hover {
+    transform: translate(5px, 5px); }
+  header nav ul li a {
     font-size: 1.5rem;
     color: white;
     display: inline-block;
-    margin: 5px;
-}
+    margin: 5px; }
 
 .home {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    color: white;
-    background: url(../img/uniformes.jpg) no-repeat;
-    background-size: cover;
-    background-position: inherit;
-}
-
-main a {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: white;
+  background: url(../img/uniformes.jpg) no-repeat;
+  background-size: cover;
+  background-position: inherit; }
+  .home main a {
     color: white;
     font-size: 1.7rem;
     background-color: lightblue;
@@ -72,453 +96,27 @@ main a {
     margin: 2rem;
     text-decoration: none;
     display: inline-block;
-    border-radius: 1rem;
-}
-
-main a:hover{
-    transform: scale(1.1);
-}
-
-main img{
+    border-radius: 1rem; }
+  .home main a:hover {
+    transform: scale(1.1); }
+  .home main img {
     height: 6rem;
-    width: 6rem;
-}
-
-.tituloPrincipal {
+    width: 6rem; }
+  .home .tituloPrincipal {
     font-size: 5rem;
-    font-weight: bold;
-}
-
-.lema {
+    font-weight: bold; }
+  .home .lema {
     font-size: 2rem;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
+    align-items: center; }
 
 footer {
-    text-align: center;
-    background-color: lightblue;
-    color: white;
-    font-weight: bolder;
-    margin-top: 0.5rem;
-}
-
-/* estilos de sobrenosotros.html */
-
-.sobreNosotrosMain img {
-    height: 30%;
-    width: 90%;
-    margin: 30px;
-}
-
-.sobreNosotrosSection {
-    font-size: 1.5rem;
-    margin: 30px;
-}
-
-/* estilos de colegios.html */
-
-.colegiosMain {
-    text-align: center;
-    color: rgb(44, 44, 126);
-    font-size: 1.7rem;
-    }
-
-.div1 {
-    text-align: center;
-    color: rgb(44, 44, 126);
-    font-size: 1.5rem;
-}
-
-.div1 img {
-    height: 350px;
-    width: 350px;
-}
-
-.div2 {
-    text-align: center;
-    color: rgb(44, 44, 126);
-    font-size: 1.5rem;
-}
-
-.div2 img {
-    height: 350px;
-    width: 350px;
-}
-
-.div3 {
-    text-align: center;
-    color: rgb(44, 44, 126);
-    font-size: 1.5rem;
-}
-
-.div3 img {
-    height: 350px;
-    width: 350px;
-}
-
-.div4 {
-    text-align: center;
-    color: rgb(44, 44, 126);
-    font-size: 1.5rem;
-}
-
-.div4 img {
-    height: 350px;
-    width: 350px;
-}
-
-/* estilo de contacto.html */
-
-.contacto {
-    font-size: 1.9rem;
-    text-align: center;
-    background-color: lightblue;
-    margin: 10px;
-    padding: 1rem;
-    color: white;
-}
-
-main form {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: lightblue;
-}
-
-form input {
-    width: 90%;
-    height: 30px;
-    margin: 0.5rem;
-}
-
-/* estilo de ubicacion.html */
-
-.ubicacionMain {
-    height: 1fr;
-    width: 1fr;
-    grid-area: main;
-    justify-self: center;
-    margin: 20px;
-}
-
-.ubicacionMain img{
-    height: 400px;
-    width: 600px;
-    grid-area: div;
-    justify-self: center;
-    margin: 20px;
-}
-
-.inframeDiv{
-    height: 500px;
-    width: 700px;
-    grid-area: div;
-    justify-self: center;
-    margin: 50px 30px;
-}
-
-/* estilo de bebesyninos.html */
-
-.gamise h1 {
-    font-size: 1.5rem;
-    text-align: center;
-    background-color: rgb(80, 182, 215);
-    margin: 10px;
-    color: white;
-}
-
-.gamise img {
-    height: 400px;
-    width: 400px;
-    margin: 10px;
-}
-
-.panalera p {
-    font-size: 1.5rem;
-    text-align: center;
-    background-color: rgb(80, 182, 215);
-    margin: 10px;
-    color: white;
-}
-
-.panalera img {
-    height: 400px;
-    width: 700px;
-    margin: 10px;
-}
-
-.infantil p {
-    font-size: 1.5rem;
-    text-align: center;
-    background-color: rgb(80, 182, 215);
-    margin: 10px;
-    color: white;
-}
-
-.infantil img {
-    height: 400px;
-    width: 400px;
-    margin: 10px;
-}
-
-/* media queries (mq) */
-
-@media screen and (max-width:768px) {
-    nav ul li a {
-        font-size: 1rem;
-        color: white;
-        display: inline-block;
-        margin: 5px;
-    }
-
-    header nav {
-        font-size: 1rem;
-        width: 95%;
-        top: 5%;
-        position: absolute;
-        text-align: end;
-        list-style-type: none;
-        color: white;
-    }
-
-    .tituloPrincipal {
-        font-size: 3.5rem;
-    }
-
-    .lema {
-        font-size: 1.5rem;
-    }
-
-    main a {
-        margin: 1rem;
-        font-size: 1.4rem;
-        padding: 1rem;
-        border-radius: 1rem;
-    }
-
-    main img{
-        height: 2rem;
-        width: 2rem;
-    }
-
-    /* media queries (mq) - sobreNosotros.html */
-
-    .sobreNosotrosMain img {
-        height: 50%;
-        width: 100%;
-        margin: 60px 30px;
-    }
-    
-    .sobreNosotrosSection {
-        font-size: 1.3rem;
-        margin: 30px;
-    }
-    
-
-    /* media queries (mq) - bebesyNinos.html */
-
-    .gamise img {
-        height: 300px;
-        width: 300px;
-        margin: 10px;
-    }
-     
-    .panalera img {
-        height: 500px;
-        width: 700px;
-        margin: 10px;
-    }
-        
-    .infantil img {
-        height: 300px;
-        width: 300px;
-        margin: 10px;
-    }
-
-    /* media queries (mq) - colegios.html*/
-
-    .colegiosBody {
-        display: grid;
-        height: 100vh;
-        grid-template-areas: "header header"
-                              "main main"
-                              "div1 div2"
-                              "div3 div4"
-                              "footer footer";
-        grid-template-rows: 145px 100px 300px 450px;
-        gap: 10px;
-    }
-    
-    .colegiosMain {
-        text-align: center;
-        color: rgb(44, 44, 126);
-        font-size: 1.3rem;
-        grid-area: main;
-    }
-    
-    .div1 img {
-        grid-area: div1;
-        height: 350px;
-        width: 350px;
-        margin: 10px;
-    }
-    
-    .div2 img {
-        height: 350px;
-        width: 350px;
-        grid-area: div2;
-        margin: 10px;
-    }
-    
-    .div3 img {
-        height: 350px;
-        width: 350px;
-        grid-area: div3;
-        margin: 10px;
-    }
-    
-    .div4 img {
-        height: 350px;
-        width: 350px;
-        grid-area: div4;
-        margin: 10px;
-    }
-
-    /* media queries (mq) - ubicacion.html*/
-    
-    .frenteLocal{
-        display: none;
-    }
-}
-
-@media screen and (max-width:320px) {
-
-    .tituloPrincipal {
-        font-size: 2.5rem;
-    }
-
-    .lema {
-        font-size: 1.5rem;
-    }
-
-    main a {
-        margin: 1rem;
-        font-size: 1rem;
-        padding: 1rem;
-        border-radius: 1rem;
-    }
-
-    main a img{
-        height: 1rem;
-        width: 1rem;
-    }
-
-    /* media queries (mq) - sobreNosotros.html */
-
-    .sobreNosotrosBody{
-        grid-template-rows: 145px 500px 100px;
-    }
-
-    .sobreNosotrosSection {
-        font-size: 1.1rem;
-        margin: 30px;
-    }
-
-    .sobreNosotrosMain img {
-        display: none;
-    }
-
-    /* media queries (mq) - ubicacion.html */
-
-    .ubicacionMain img{
-        display: none;
-    }
-
-    /* media queries (mq) - bebesyNinos.html */
-
-    .bebesyninosBody {
-        display: grid;
-        height: 100vh;
-        grid-template-areas: "header"
-                              "main"
-                              "footer";
-        grid-template-rows: 145px 3300px 80px;
-        gap: 10px;
-    }
-
-    .gamise img {
-        height: 300px;
-        width: 300px;
-        margin: 10px;
-    }
-     
-    .panalera img {
-        height: 200px;
-        width: 300px;
-        margin: 10px;
-    }
-        
-    .infantil img {
-        height: 300px;
-        width: 300px;
-        margin: 10px;
-    }
-
-    /* media queries (mq) - colegios.html*/
-
-    .colegiosBody {
-        display: grid;
-        height: 100vh;
-        grid-template-areas: "header"
-                              "main"
-                              "div1"
-                              "div2"
-                              "div3"
-                              "div4"
-                              "footer";
-        grid-template-rows: 145px 100px 300px 450px;
-        gap: 10px;
-    }
-    
-    .colegiosMain {
-        text-align: center;
-        color: rgb(44, 44, 126);
-        font-size: 1rem;
-        grid-area: main;
-        display: flex;
-    }
-    
-    .div1 img {
-        grid-area: div1;
-        height: 300px;
-        width: 300px;
-    }
-    
-    .div2 img {
-        height: 300px;
-        width: 300px;
-        grid-area: div2;
-    }
-    
-    .div3 img {
-        height: 300px;
-        width: 300px;
-        grid-area: div3;
-    }
-    
-    .div4 img {
-        height: 300px;
-        width: 300px;
-        grid-area: div4;
-    }
-
-}
+  text-align: center;
+  background-color: lightblue;
+  color: white;
+  font-weight: bolder;
+  margin-top: 0.5rem; }

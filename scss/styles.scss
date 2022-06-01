@@ -1,0 +1,115 @@
+
+//import
+
+@import "utilities/variables";
+@import "utilities/medias";
+
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: $tipografia;
+}
+
+/*Estilo del home*/
+
+header {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: $colorPrincipal;
+    margin-bottom: 0.5rem;
+
+    header img {
+        margin: 10px;
+        text-align: start;
+    }
+
+    header nav {
+        width: 95%;
+        top: 5%;
+        position: absolute;
+        text-align: end;
+        list-style-type: none;
+        color: $colorTipografia;
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        display: inline-block;
+        justify-self: end;
+    }
+
+    .nav-link {
+        color: $colorTipografia;
+    }
+
+    nav ul li:hover {
+        transform: translate(5px, 5px);
+    }
+
+    nav ul li a {
+        font-size: 1.5rem;
+        color: $colorTipografia;
+        display: inline-block;
+        margin: 5px;
+    }
+}
+
+.home {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: $colorTipografia;
+    background: url(../img/uniformes.jpg) no-repeat;
+    background-size: cover;
+    background-position: inherit;
+
+
+    main a {
+        color: $colorTipografia;
+        font-size: 1.7rem;
+        background-color: $colorPrincipal;
+        padding: 1.5rem;
+        margin: 2rem;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 1rem;
+    }
+
+    main a:hover {
+        transform: scale(1.1);
+    }
+
+    main img {
+        height: 6rem;
+        width: 6rem;
+    }
+
+    .tituloPrincipal {
+        font-size: 5rem;
+        font-weight: bold;
+    }
+
+    .lema {
+        font-size: 2rem;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: $colorPrincipal;
+    color: $colorTipografia;
+    font-weight: bolder;
+    margin-top: 0.5rem;
+}
